@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "hDSBjd8soOzJAqR0QbPvz3o0V4Q63gy37H1GrGTXdlqw0eaQOoHQgshGe4Y1MWon4gjM7te/vAH+UCwWdmW68w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.2\\microsoft.codeanalysis.fxcopanalyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.2\\microsoft.codeanalysis.versioncheckanalyzer.3.3.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.codequality.analyzers\\3.3.2\\microsoft.codequality.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.netcore.analyzers\\3.3.2\\microsoft.netcore.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.netframework.analyzers\\3.3.2\\microsoft.netframework.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\openmcdf\\2.3.0\\openmcdf.2.3.0.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Parsa\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

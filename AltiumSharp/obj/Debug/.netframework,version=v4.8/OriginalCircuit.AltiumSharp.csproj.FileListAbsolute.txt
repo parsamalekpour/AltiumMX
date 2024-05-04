@@ -1,0 +1,5 @@
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\.netframework,version=v4.8\OriginalCircuit.AltiumSharp.csproj.AssemblyReference.cache
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\.netframework,version=v4.8\OriginalCircuit.AltiumSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\.netframework,version=v4.8\OriginalCircuit.AltiumSharp.AssemblyInfoInputs.cache
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\.netframework,version=v4.8\OriginalCircuit.AltiumSharp.AssemblyInfo.cs
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\.netframework,version=v4.8\OriginalCircuit.AltiumSharp.csproj.CoreCompileInputs.cache

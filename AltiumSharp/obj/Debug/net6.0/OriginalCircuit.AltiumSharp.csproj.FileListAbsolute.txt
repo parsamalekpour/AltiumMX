@@ -1,0 +1,14 @@
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\font.ttf
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\assets.schlib
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\OriginalCircuit.AltiumSharp.deps.json
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\OriginalCircuit.AltiumSharp.dll
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\OriginalCircuit.AltiumSharp.pdb
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.csproj.AssemblyReference.cache
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.AssemblyInfoInputs.cache
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.AssemblyInfo.cs
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.csproj.CoreCompileInputs.cache
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.dll
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\refint\OriginalCircuit.AltiumSharp.dll
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\OriginalCircuit.AltiumSharp.pdb
+C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\obj\Debug\net6.0\ref\OriginalCircuit.AltiumSharp.dll

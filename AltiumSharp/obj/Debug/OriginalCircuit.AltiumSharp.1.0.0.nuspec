@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OriginalCircuit.AltiumSharp</id>
+    <version>1.0.0</version>
+    <title>AltiumSharp</title>
+    <authors>OriginalCircuit</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/issus/AltiumSharp</projectUrl>
+    <description>Library for reading and writing Altium Designer files.</description>
+    <copyright>Copyright 2020-2023 Original Circuit Limited. Released under MIT License</copyright>
+    <tags>altium schlib pcblib altium designer eda ecad</tags>
+    <repository type="git" url="https://github.com/issus/AltiumSharp" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="OpenMcdf" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="8.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/font.ttf" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\OriginalCircuit.AltiumSharp.dll" target="lib\net6.0\OriginalCircuit.AltiumSharp.dll" />
+    <file src="C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\font.ttf" target="content\font.ttf" />
+    <file src="C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\font.ttf" target="contentFiles\any\net6.0\font.ttf" />
+    <file src="C:\Users\Parsa\Desktop\AltiumSharp-master\README.md" target="\README.md" />
+  </files>
+</package>
