@@ -1,92 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj": {}
+    "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
+    "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
-        "projectName": "OriginalCircuit.AltiumSharp",
-        "projectPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
-        "packagesPath": "C:\\Users\\Parsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Parsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.3.2, )"
-            },
-            "OpenMcdf": {
-              "target": "Package",
-              "version": "[2.3.0, )"
-            },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "System.Text.Encoding.CodePages": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj",
+        "projectUniqueName": "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj",
         "projectName": "LibraryViewer",
-        "projectPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj",
+        "projectPath": "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj",
         "packagesPath": "C:\\Users\\Parsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\obj\\",
+        "outputPath": "E:\\GitHub\\AltiumMX\\LibraryViewer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Parsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
-                "projectPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
+              "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
+                "projectPath": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
               }
             }
           }

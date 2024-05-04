@@ -1192,21 +1192,6 @@
             "rid": "win"
           }
         }
-      },
-      "OriginalCircuit.AltiumSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "OpenMcdf": "2.3.0",
-          "System.Drawing.Common": "8.0.2",
-          "System.Text.Encoding.CodePages": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OriginalCircuit.AltiumSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OriginalCircuit.AltiumSharp.dll": {}
-        }
       }
     }
   },
@@ -3281,20 +3266,15 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "OriginalCircuit.AltiumSharp/1.0.0": {
-      "type": "project",
-      "path": "../AltiumSharp/OriginalCircuit.AltiumSharp.csproj",
-      "msbuildProject": "../AltiumSharp/OriginalCircuit.AltiumSharp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.4.421302",
       "Microsoft.Windows.Compatibility >= 8.0.2",
       "OpenMcdf >= 2.3.0",
-      "OriginalCircuit.AltiumSharp >= 1.0.0",
       "System.Data.DataSetExtensions >= 4.5.0"
     ]
   },
@@ -3304,11 +3284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj",
+      "projectUniqueName": "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj",
       "projectName": "LibraryViewer",
-      "projectPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\LibraryViewer.csproj",
+      "projectPath": "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj",
       "packagesPath": "C:\\Users\\Parsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\LibraryViewer\\obj\\",
+      "outputPath": "E:\\GitHub\\AltiumMX\\LibraryViewer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Parsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3325,8 +3305,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
-              "projectPath": "C:\\Users\\Parsa\\Desktop\\AltiumSharp-master\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
+            "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
+              "projectPath": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
             }
           }
         }
@@ -3385,5 +3365,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }
