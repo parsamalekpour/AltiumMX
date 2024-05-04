@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "soEbyXDtUoWMHJq0kr3vyEdcrK8lSmQZJ8fDgLw/VB39DNbk/e40VqUeOeR3EBDGvFNB2eRZ4ooEHL2oBS6pOw==",
-  "success": false,
+  "dgSpecHash": "gP4qjUsE3aJbmQQzggsNIWV+hzcB554FGZsOS69gsCp/hin4o8vcAnqmN1RUSLVXjp5Lg7TLh78KXxFXRBQl5g==",
+  "success": true,
   "projectFilePath": "E:\\GitHub\\AltiumMX\\LibraryViewer\\LibraryViewer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Parsa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
@@ -67,15 +67,5 @@
     "C:\\Users\\Parsa\\.nuget\\packages\\system.web.services.description\\4.10.0\\system.web.services.description.4.10.0.nupkg.sha512",
     "C:\\Users\\Parsa\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

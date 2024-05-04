@@ -7,9 +7,6 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AltiumSharp\OriginalCircuit.AltiumSharp.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="OpenMcdf" Version="2.3.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
@@ -17,5 +14,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OriginalCircuit.AltiumSharp">
+      <HintPath>C:\Users\Parsa\Desktop\AltiumSharp-master\AltiumSharp\bin\Debug\net6.0\OriginalCircuit.AltiumSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

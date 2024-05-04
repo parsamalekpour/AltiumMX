@@ -3270,7 +3270,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers >= 0.4.421302",
       "Microsoft.Windows.Compatibility >= 8.0.2",
@@ -3304,11 +3303,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
-              "projectPath": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3365,16 +3360,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

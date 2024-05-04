@@ -27,11 +27,7 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {
-              "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj": {
-                "projectPath": "E:\\GitHub\\AltiumMX\\AltiumSharp\\OriginalCircuit.AltiumSharp.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

@@ -12,8 +12,8 @@
           "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "0.4.421302",
           "Microsoft.Windows.Compatibility": "8.0.2",
           "OpenMcdf": "2.3.0",
-          "OriginalCircuit.AltiumSharp": "1.0.0",
-          "System.Data.DataSetExtensions": "4.5.0"
+          "System.Data.DataSetExtensions": "4.5.0",
+          "OriginalCircuit.AltiumSharp": "1.0.0.0"
         },
         "runtime": {
           "LibraryViewer.dll": {}
@@ -861,14 +861,12 @@
           }
         }
       },
-      "OriginalCircuit.AltiumSharp/1.0.0": {
-        "dependencies": {
-          "OpenMcdf": "2.3.0",
-          "System.Drawing.Common": "8.0.2",
-          "System.Text.Encoding.CodePages": "8.0.0"
-        },
+      "OriginalCircuit.AltiumSharp/1.0.0.0": {
         "runtime": {
-          "OriginalCircuit.AltiumSharp.dll": {}
+          "OriginalCircuit.AltiumSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1313,8 +1311,8 @@
       "path": "system.windows.extensions/8.0.0",
       "hashPath": "system.windows.extensions.8.0.0.nupkg.sha512"
     },
-    "OriginalCircuit.AltiumSharp/1.0.0": {
-      "type": "project",
+    "OriginalCircuit.AltiumSharp/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
