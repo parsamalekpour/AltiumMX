@@ -8,6 +8,7 @@ using System.Data;
 using System.IO;
 using System.Drawing.Text;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 
 namespace LibraryViewer
 {
@@ -29,6 +30,7 @@ namespace LibraryViewer
             public string signal;
             public string name;
             public string label;
+            public string peripheral;
         }
 
 
@@ -81,6 +83,12 @@ namespace LibraryViewer
 
         }
 
+        private string getPinName(string str)
+        {
+            Regex rgName = new Regex(@"^P[A-Z]\d+");
+            return rgName.Match(str).Value; 
+        }
+
         private PinsParams GetPinsParams(string num)
         {
             PinsParams pin = new PinsParams();
@@ -102,9 +110,13 @@ namespace LibraryViewer
 
 
                 if (type == "Mcu.Pin" + num)pin.name = rgName.Match(value).Value;
-                if (Regex.IsMatch(type,"^" + pin.name + ".*Mode")) pin.mode = value;
-                if (Regex.IsMatch(type,"^" + pin.name + ".*Signal")) pin.signal = value;
-                if (Regex.IsMatch(type, "^" + pin.name + ".*GPIO_Label")) pin.label = value;
+                if (getPinName(type) == pin.name &  type.EndsWith(".Mode")) pin.mode = value;
+                if (getPinName(type) == pin.name & type.EndsWith(".GPIO_Label")) pin.label = value;
+                if (getPinName(type) == pin.name & type.EndsWith(".Signal"))
+                {
+                    pin.signal = value;
+                    pin.peripheral = value.Substring(0, value.IndexOf('_'));
+                }
 
 
             }

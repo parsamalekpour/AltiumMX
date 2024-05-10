@@ -68,10 +68,10 @@
             exportPrimitiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             exportImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            processToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             openFileDialog = new System.Windows.Forms.OpenFileDialog();
             saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             redrawTimer = new System.Windows.Forms.Timer(components);
-            processToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -470,6 +470,12 @@
             testToolStripMenuItem.Text = "Test SchLib creation";
             testToolStripMenuItem.Click += testToolStripMenuItem_Click;
             // 
+            // processToolStripMenuItem
+            // 
+            processToolStripMenuItem.Name = "processToolStripMenuItem";
+            processToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            processToolStripMenuItem.Text = "Process";
+            // 
             // openFileDialog
             // 
             openFileDialog.Filter = "Supported files|*.pcblib;*.schlib;*.schdoc|PcbLib files|*.pcblib|SchLib files|*.schlib|SchDoc files|*.schdoc|All files|*.*";
@@ -484,13 +490,6 @@
             redrawTimer.Interval = 500;
             redrawTimer.Tick += RedrawTimer_Tick;
             // 
-            // processToolStripMenuItem
-            // 
-            processToolStripMenuItem.Name = "processToolStripMenuItem";
-            processToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            processToolStripMenuItem.Text = "Process";
- 
-            // 
             // Main
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -504,6 +503,7 @@
             Name = "Main";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Library Viewer";
+            Load += Main_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();

@@ -672,7 +672,7 @@ namespace LibraryViewer
             {
                 SchComponent component = schLib.Items[0];
                 component.TargetFileName = conf.MCU.CPN;
-                component.Comment.Text = conf.MCU.CPN;   
+                component.Comment.Text = conf.MCU.CPN;
 
                 foreach (var item in component)
                 {
@@ -681,21 +681,11 @@ namespace LibraryViewer
                         STM32CubeMX_Parser.PinsParams MXpin;
 
                         MXpin = MXpins.Find(x => x.name == Componentpin.Name);
-                        if(MXpin.signal != null)
+                        if (MXpin.signal != null)
                         {
-                            if (MXpin.label != null)
-                            {
-                                Componentpin.Name += " / " + MXpin.label;
-                                Componentpin.Description = MXpin.mode + ">>" + MXpin.signal;
-                                
-                            }
-                            else
-                            {
-                                Componentpin.Name += " / " + MXpin.signal;
-                                Componentpin.Description = MXpin.mode;
-                            }
                             
-                            
+                            Componentpin.Name += " / " + MXpin.signal;
+                            Componentpin.Description = MXpin.peripheral;
                             Componentpin.Color = Color.DarkBlue;
                         }
                     }
@@ -703,6 +693,9 @@ namespace LibraryViewer
             }
         }
 
- 
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
